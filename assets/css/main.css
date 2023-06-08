@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+body {
+    font-family: 'Ubuntu', system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 2;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+.link {
+    @apply underline rounded-lg px-3 hover:bg-gray-100 dark:hover:bg-zinc-800
+}
+
+img {
+    pointer-events: none;
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar, .scroll-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html, .scroll-hide{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}

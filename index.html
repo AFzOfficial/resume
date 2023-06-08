@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABolFazl Badie</title>
+
+    <link rel="icon" href="https://fav.farm/☁️" />
+
+    <link rel="stylesheet" href="./assets/css/main.min.css">
+
+    <script>
+        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark')
+        }
+    </script>
+
+</head>
+<body class="bg-[#f1f1f1] select-none dark:bg-zinc-900/90 text-slate-700 dark:text-slate-300 p-6 sm:p-12">
+
+    <main class="relative bg-white dark:bg-zinc-900/95 max-w-screen-lg mx-auto rounded-3xl p-6 my-10 shadow-md">
+
+        <div class="mb-10">
+            <img src="./assets/img/avatar.webp" alt="photo" class="rounded-lg w-full sm:w-52">
+        </div>
+
+        <div class="mb-10">
+            <h1 class="font-medium text-xl mb-2">About Me</h1>
+            <p>Hi, I'm <span class="text-blue-500">ABolFazl Badie</span> Interested in Python and Linux, Started Learning from 2020, have 2 years experience in Full Stack Development.</p>
+        </div>
+
+        <div class="mb-10">
+            <h1 class="font-medium text-xl mb-2">Stack</h1>
+            <p>Python, FastAPI, MongoDB, MySQL <br> React.js, TailwindCSS, HTML, CSS, JS <br> Linux, Nginx, Cloudflare, Docker</p>
+        </div>
+
+        <div class="mb-10">
+            <h1 class="font-medium text-xl mb-2">Interests</h1>
+            <div class="flex flex-wrap gap-4 mt-2">
+                <span>Cloud</span>
+                <span>Network</span>
+                <span>Linux</span>
+                <span>Virtualization</span>
+            </div>
+        </div>
+
+        <div class="mb-10">
+            <h1 class="font-medium text-xl mb-2">Contact Me</h1>
+            <div class="flex flex-wrap">
+                <a target="_blank" href="https://github.com/AFzOfficial" class="link">Github</a>
+                <a target="_blank" href="https://twitter.com/AFzOfficial" class="link">Twitter</a>
+                <a target="_blank" href="https://t.me/AFzOfficial" class="link">Telegram</a>
+                <a target="_blank" href="https://pycloud.space" class="link">Website</a>
+            </div>
+        </div>
+
+
+        <br><br>
+
+
+        <div class="absolute bottom-0 left-0 w-full">
+            <div class="w-full bg-white dark:bg-zinc-900/95 h-14 flex justify-center items-center rounded-b-3xl">
+                
+                <button id="theme-toggle" type="button" class="hover:bg-gray-100 dark:hover:bg-zinc-800 rounded-full p-1.5 transition">
+                    <svg id="theme-toggle-dark-icon" class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+                    <svg id="theme-toggle-light-icon" class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                </button>
+
+            </div>
+        </div>
+
+    </main>
+
+
+    <footer class="mx-auto text-center my-8">
+        <p>
+            2023 <a href="https://pycloud.space" class="underline">ABolFazl Badie</a>. All Rights Reserved.
+        </p>
+        <span class="text-xs">
+            Made with ❤️ By <a target="_blank" href="https://pycloud.space" class="underline">AFz.</a>
+        </span>
+    </footer>
+    
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
